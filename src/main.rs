@@ -3,11 +3,11 @@ extern crate tcod;
 use tcod::console::*;
 use tcod::colors;
 
-// actual size of the window
+// Size of the window itself
 const SCREEN_WIDTH: i32 = 80;
 const SCREEN_HEIGHT: i32 = 50;
 
-const LIMIT_FPS: i32 = 20;  // 20 frames-per-second maximum
+const LIMIT_FPS: i32 = 20;  // Limit FPS to 20
 
 
 fn main() {
@@ -15,7 +15,7 @@ fn main() {
         .font("arial10x10.png", FontLayout::Tcod)
         .font_type(FontType::Greyscale)
         .size(SCREEN_WIDTH, SCREEN_HEIGHT)
-        .title("Rust/libtcod tutorial")
+        .title("Rust Roguelike")
         .init();
 
     tcod::system::set_fps(LIMIT_FPS);
