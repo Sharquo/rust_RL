@@ -1,0 +1,6 @@
+[package]
+name = "rust_RL"
+version = "0.1.0"
+authors = ["Alexander Taxter <Sharquo@gmail.com>"]
+
+[dependencies]
